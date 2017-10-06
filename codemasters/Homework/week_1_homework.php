@@ -9,9 +9,9 @@
 -----Output the Loan Amount, Interest Rate Percentage, and Loan Term----
 ***********************************************************************/
 
-$loan = 
-$interest =
-$years = 
+$loan = htmlspecialchars($_REQUEST['loanAmount']); 
+$interest = htmlspecialchars($_REQUEST['interestRate']); 
+$years = htmlspecialchars($_REQUEST['loanTerm']); 
 
 $rate = $interest / 1200;
 $term = $years * 12;
@@ -41,7 +41,7 @@ $repayments = $loan * $rate * $power / ($power - 1);
 
 	<h2>Loan Details</h2>
 	
-	<form action="welcome_get.php" method="get">
+	<form action="" method="post">
 	Loan amount: <input type="number" name="loanAmount"><br>
 	Interest rate: <input type="number" name="interestRate"><br>
 	Loan term: <input type="number" name="loanTerm"><br>
