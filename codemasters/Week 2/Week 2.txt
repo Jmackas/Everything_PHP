@@ -1,5 +1,7 @@
 Notes:
    Are there any reliable beautifiers for PHP?
 
+   How do you get PHP code to compile after the user has input data, and not before?
+
 
 Lecture:
