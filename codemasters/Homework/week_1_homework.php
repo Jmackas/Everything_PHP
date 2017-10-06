@@ -9,9 +9,21 @@
 -----Output the Loan Amount, Interest Rate Percentage, and Loan Term----
 ***********************************************************************/
 
-$loan = htmlspecialchars($_REQUEST['loanAmount']); 
-$interest = htmlspecialchars($_REQUEST['interestRate']); 
-$years = htmlspecialchars($_REQUEST['loanTerm']); 
+/* Parsing of 'Loan amount' to variable $loan */
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $loan = $_POST['loanAmount']; 
+}
+
+/* Parsing of 'Interest rate' to variable $interest */
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $interest = $_POST['interestRate']; 
+}
+
+/* Parsing of 'Loan term' to variable $years */
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $years = $_POST['loanTerm']; 
+}
+
 
 $rate = $interest / 1200;
 $term = $years * 12;
@@ -30,6 +42,10 @@ $repayments = $loan * $rate * $power / ($power - 1);
 		font-size: 150%;
 	}
 
+	.outputField {
+		color: red;
+	}
+
 </style>
 
 
@@ -41,15 +57,24 @@ $repayments = $loan * $rate * $power / ($power - 1);
 
 	<h2>Loan Details</h2>
 	
-	<form action="" method="post">
-	Loan amount: <input type="number" name="loanAmount"><br>
-	Interest rate: <input type="number" name="interestRate"><br>
-	Loan term: <input type="number" name="loanTerm"><br>
+	<p>Please enter the details of your loan below.</p>
+
+	<form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
+	<p>Loan amount: <input type="text" name="loanAmount"></p>
+	<p>Interest rate: <input type="text" name="interestRate"></p>
+	<p>Loan term: <input type="text" name="loanTerm"></p>
 	<input type="submit">
-	</form>
+  </form>
 
 	
 	<h2>Mortgage Repayment</h2>
+
+	<p>Loan amount: <span class="outputField">$<?php echo number_format($loan, 0, "", ",");?></span></p>
 	
-	<p>$<?php echo number_format($repayments, 2);?> / month</p>
+	<p>Interest rate: <span class="outputField"><?php echo $interest;?>%</span></p>
+	
+	<p>Loan term: <span class="outputField"><?php echo $years;?> years</span></p>
+
+	<p><strong>Final repayment: <span class="outputField">$<?php echo number_format($repayments, 2);?> / month</span></strong></p>
+
 </body>
