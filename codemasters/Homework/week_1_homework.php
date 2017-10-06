@@ -87,4 +87,18 @@ $monthlyIncome = $weeklyIncome * 4;
 
 	<p><strong>Final repayment: <span class="outputField">$<?php echo number_format($repayments, 2);?> / month</span></strong></p>
 
+	<p><?php 
+	
+
+/* Determining whether mortgage stress may occur */
+if ($monthlyIncome / 3 < $repayments) {
+	echo 'You will experience mortgage stress';
+}
+
+else {
+	echo "This mortgage will most likely be successful";
+}
+
+	?></p>
+
 </body>
