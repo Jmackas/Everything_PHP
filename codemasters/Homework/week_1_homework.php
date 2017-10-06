@@ -8,8 +8,14 @@
 ------------------------------------------------------------------------
 -----Output the Loan Amount, Interest Rate Percentage, and Loan Term----
 ***********************************************************************/
+/*
+	Not sure how to get the program to read the user input before executing, tried the below code but it didn't work.
 
-/* Parsing of 'Loan amount' to variable $loan */
+	if(isset($_POST['Submit'])) {
+
+	}
+*/
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $loan = $_POST['loanAmount']; 
 }
@@ -29,6 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 
+
 $rate = $interest / 1200;
 $term = $years * 12;
 
@@ -38,6 +45,9 @@ $repayments = $loan * $rate * $power / ($power - 1);
 
 /* Weekly income to monthly income */
 $monthlyIncome = $weeklyIncome * 4;
+
+
+
 ?>
 
 <!doctype html>
@@ -102,3 +112,16 @@ else {
 	?></p>
 
 </body>
+
+
+<!--
+
+Advanced Questions:
+1. What happens if a user enters invalid data (e.g. text in the form fields)? What about if they enter malicious input? What are some server-side strategies we can use to handle this situation?
+	It will throw an error if the input is not understandable. Server side strategies could consist of try catch blocks, or if-else statements to remind the user not to enter certain data, and to repeat the input. More advanced solutions could consist of Regex, dissallowing a user to even type a character that could be deemed to be deviating from the required input.
+
+
+2. How can we use our code to be forgiving to users entering common invalid data, e.g. $ on amounts, % on interest rates?
+	Restrict what they can input, so they don't have to guess what is valid input. Such things as regex may be of assistance.
+
+	-->
