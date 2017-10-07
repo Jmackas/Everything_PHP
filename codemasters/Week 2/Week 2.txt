@@ -3,6 +3,10 @@ Notes:
 
    How do you get PHP code to compile after the user has input data, and not before?
 
+   Check out 'atoll'.
+
+   Find a method of highlighting code and automatically commenting it.
+
 
 Lecture:
     There is a difference between a single quote and double quote. 
@@ -20,8 +24,27 @@ Lecture:
     Multidimensional arrays are arrays within arrays.
 
     A Foreach loop only works for arrays. The traditional loops do work for arrays as well, but typically a Foreach is better practice.
-    
-     
+
+    POST is best practice for recieving user input.
+
+    Bots can't see CSS, therefore you can have a 'display:none;' field that a bot might accidentally fill in. Therefore the PHP knows that a bot entered the form.
+
+    PHP form to email:
+        Sanitisation is removing any unlikeable code or special characters added into an input field.
+
+        Email address and other email contents are embedded with how the form is to be recieved.
+
+        Emails cannot be sent on a local host, it needs a mail server.
+
+        It is law to allow people to opt out of automatic emails when signing up. The checkbox can be checked, but it needs to be unselectable.
+
+        The output can be automatically compiled to become a CSV file. CSV file is 'Comma Separated Values'.
+
+
+
+
+
+
 
     
     
