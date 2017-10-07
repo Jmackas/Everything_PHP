@@ -14,6 +14,7 @@ Lecture:
 
     Remember --> the array index (first item) commences at number [0].
 
+    Numerical array --> using numbers as an index.
     Associative array --> using whatever you want as an index (not number).
 
     Multidimensional arrays are arrays within arrays.
