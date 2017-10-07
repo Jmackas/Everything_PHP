@@ -61,5 +61,4 @@ Lecture:
 
     A class that is referenced after a previous class with the syntax "class ' sub class name' extends 'class name'". This is an example of inheritance.
 
-    
-    
+    'public' allows for usage of the variable throughout the whole program. 'Private' can only allow for variable usage within the class.
