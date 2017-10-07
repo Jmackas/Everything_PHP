@@ -7,6 +7,8 @@ Notes:
 
    Find a method of highlighting code and automatically commenting it.
 
+   Array examples are always fruit,
+
 
 Lecture:
     There is a difference between a single quote and double quote. 
@@ -40,11 +42,22 @@ Lecture:
 
         The output can be automatically compiled to become a CSV file. CSV file is 'Comma Separated Values'.
 
+    To include a PHP file in a document, you can use 'Include' in contrast to 'Echo'. You can also use require, but if the file can't be located then the website will push an error.
 
+    A method is a function that lives inside a class.
 
+    Object orientation:
+        Everything we've done is procedural. It is sequencing.
 
+        Object oriented programming is effectively using methods to perform what needs to be done.
 
+        An object is available when a class is situated inside of it, with a method inside of it.
 
+        Object orientation helps with encapsulation.
+
+        An object is effectively a variable type within PHP.
+
+    A class that is referenced after a previous class with the syntax "class ' sub class name' extends 'class name'". This is an example of inheritance.
 
     
     
