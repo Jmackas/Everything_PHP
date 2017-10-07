@@ -12,4 +12,11 @@ Lecture:
 
     The point of a while loop is an unknown amount of loops necessary. A for loop is a controlled amount.
 
+    Remember --> the array index (first item) commences at number [0].
+
+    Associative array --> using whatever you want as an index (not number).
+
+    Multidimensional arrays are arrays within arrays.
+
+    
     
