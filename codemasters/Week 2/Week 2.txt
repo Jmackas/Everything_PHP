@@ -11,6 +11,8 @@ Notes:
 
    As far as I'm aware, objects, classes, and variables are effectively a group heirarchy. Objects are at the top, and going down variables are at the bottom.
 
+   Understand more about functions.
+
 
 Lecture:
     There is a difference between a single quote and double quote. 

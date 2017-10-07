@@ -2,10 +2,10 @@
     class fruit {
         
       public $brand;
-      public $colour = 'red';
+      public $colour;
         
         public function hello() {
-            return "hello";
+            return $testing;
         }
 
     }
@@ -14,9 +14,11 @@
     $orange = new fruit ();
 
 
-    echo $apple -> colour;
+    echo $apple -> colour = "red";
     echo '<br>';
-    echo $orange -> colour;
+    echo $orange -> colour = "orange";
+
+    echo $testing;
 
     
 ?>
