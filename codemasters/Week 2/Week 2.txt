@@ -5,3 +5,11 @@ Notes:
 
 
 Lecture:
+    There is a difference between a single quote and double quote. 
+		A double quote can interpret a variable properly. A single quote cannot. 
+		
+	A do while loop will always execute at least once (there never really is an instance in which this would need to be used.).
+
+    The point of a while loop is an unknown amount of loops necessary. A for loop is a controlled amount.
+
+    
