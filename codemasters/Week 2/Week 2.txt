@@ -19,5 +19,9 @@ Lecture:
 
     Multidimensional arrays are arrays within arrays.
 
+    A Foreach loop only works for arrays. The traditional loops do work for arrays as well, but typically a Foreach is better practice.
+    
+     
+
     
     
