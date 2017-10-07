@@ -1,15 +1,22 @@
-<!-- http://localhost/php_learning/codemasters/Week%202/testing.php -->
-
 <?php
-
-    function functionName() {
-
-        echo 'hi';
+    class fruit {
+        
+      public $brand;
+      public $colour = 'red';
+        
+        public function hello() {
+            return "hello";
+        }
 
     }
+
+    $apple = new fruit ();
+    $orange = new fruit ();
+
+
+    echo $apple -> colour;
+    echo '<br>';
+    echo $orange -> colour;
+
     
-    echo functionName();
-
 ?>
-
-

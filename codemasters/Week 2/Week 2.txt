@@ -7,7 +7,9 @@ Notes:
 
    Find a method of highlighting code and automatically commenting it.
 
-   Array examples are always fruit,
+   Array examples are always fruit it seems, and classes and objects seem to rely on cars.
+
+   As far as I'm aware, objects, classes, and variables are effectively a group heirarchy. Objects are at the top, and going down variables are at the bottom.
 
 
 Lecture:
