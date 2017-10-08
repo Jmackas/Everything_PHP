@@ -3,4 +3,5 @@
 <?php
 /* Include functions.php in the index.php file */
 include 'functions.php';
+
 ?>

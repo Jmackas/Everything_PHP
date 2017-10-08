@@ -1,12 +1,18 @@
 <?php
-/* code that loops through the photos folder */
-$dir = new DirectoryIterator(dirname(__FILE__));
-foreach ($dir as $fileinfo) {
-    if (!$fileinfo->isDot()) {
-        var_dump($fileinfo->getFilename());
-    }
-}
 
+
+
+    $dir = "photos/activities/";
+
+    // Open a directory, and output contents
+    if (is_dir($dir)){
+        if ($dh = opendir($dir)){
+            while (($file = readdir($dh)) !== false){
+            echo "<img src='photos/activities/$file'><br>";
+            }
+            closedir($dh);
+        }
+    }
 
 
 
