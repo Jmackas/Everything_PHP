@@ -41,3 +41,13 @@ echo wildlife();
 ?>
 </body>
 </html>
+
+ <!--
+Advanced Questions:
+1. Our client is hosting their website on a Linux server. This means any directory function we use will include the default . and .. (links to current directory and parent directory respectively). How can we get rid of these to make sure we are only getting the image files? What other handling do we need to make sure we're only outputting our JPEGS and no other files?
+
+
+
+2. The client wants to update this to display the file name, dimensions, and file size of each image. How can we do this in an efficient way?
+3. How would we handle it if the client wanted to add the ability for photos to have a caption? (this one is for pondering, not implementation).
+-->
