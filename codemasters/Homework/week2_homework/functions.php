@@ -1,6 +1,7 @@
 <?php
 
 /* Function to retrieve the images for activities */
+
 function activityImages()
 {
     $dir = "photos/activities/";
