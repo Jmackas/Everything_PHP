@@ -1,3 +1,9 @@
+Alright, homework for this week
+
+So our Excellent Hotel client was so happy with our solution to their Really Crappy Custom Software problem that they have referred us onto one of their contacts, Expensive Cruises
+
+Expensive Cruises has an excellent photography portfolio, which they have uploaded to their to their webserver. They now want to be able let their customers view these images, and to let travel agents and other resellers view and download these images
+
 Exercise One: Writing a class; File system functions; While loops
 
 1. Write a class that will look through a directory for all JPEG files contained within
