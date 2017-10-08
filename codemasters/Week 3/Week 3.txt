@@ -1,0 +1,6 @@
+Notes:
+    How do i get rid of the generated images with the '..' in it?
+
+    
+
+Lecture:
