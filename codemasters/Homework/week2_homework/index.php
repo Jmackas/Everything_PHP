@@ -4,4 +4,9 @@
 /* Include functions.php in the index.php file */
 include 'functions.php';
 
+echo activityImages();
+echo "<br>";
+echo cuisineImages();
+
+
 ?>
