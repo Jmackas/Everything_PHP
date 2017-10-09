@@ -49,5 +49,9 @@ Advanced Questions:
 
 
 2. The client wants to update this to display the file name, dimensions, and file size of each image. How can we do this in an efficient way?
+    Assign a CSS class to it and edit it in the stylesheet.
+
 3. How would we handle it if the client wanted to add the ability for photos to have a caption? (this one is for pondering, not implementation).
+    
+
 -->

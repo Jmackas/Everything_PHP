@@ -9,7 +9,7 @@ function activityImages()
     if (is_dir($dir)) {
         if ($dh = opendir($dir)) {
             while (($file = readdir($dh)) !== false) {
-                echo "<img src='photos/activities/$file'><br>";
+              echo "<img src='photos/activities/$file'><br>";
                 
             }
             closedir($dh);
