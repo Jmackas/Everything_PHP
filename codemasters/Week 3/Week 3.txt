@@ -1,6 +1,31 @@
 Notes:
     How do i get rid of the generated images with the '..' in it?
 
-    
+    Homework download is: https://github.com/Jmackas/php_learning/tree/master/codemasters/Homework/week2_homework 
+
+    Understand object orientation better.
 
 Lecture:
+    If the code is similiar to a recipe, then you want a procedural format.
+
+    If the code is similiar to making a car, then you want an object orientation.
+
+    Car metaphor is used when you are trying to model an object.
+
+    The photo gallery is the push to making an object.
+
+    A class is like a blueprint. The house is an object, and the class is the blueprint. The class is not actually the house.
+
+    My homework could've been encapsulated in one function.
+
+    '..' and '.' is related to the file directory. 
+
+    Pure OOP is not really PHP. 
+
+    OOP is similiar for all coding languages.
+
+    Polymorphism --> similiar to classes and blue printing.
+
+    DRY --> 'Don't Repeat Yourself'.
+
+    
