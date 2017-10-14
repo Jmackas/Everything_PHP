@@ -38,6 +38,14 @@ Lecture:
 	
 	Int --> whole numbers. You can have different variants to specify the number further, like Tinyint. If the int cannot be defined at that moment, then just use an int.
 	
+	Float and double. Depending on accuracy either are better to use.
+	
+	Float allows to 7 digits, while double allows to 15 digits. That being said, a double will use more memory.
+	
+	
+	
+	
+	
 	
 	
 	
