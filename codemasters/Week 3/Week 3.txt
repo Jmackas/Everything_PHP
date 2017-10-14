@@ -44,6 +44,10 @@ Lecture:
 	
 	A primary key is a unique identifier for each row.
 	
+	BLOB --> Binary Large Object. It is a binary field.
+	
+	
+	
 	
 	
 	
