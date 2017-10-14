@@ -6,6 +6,12 @@ Lecture:
 	
 	Object orientation is whenever you model real-world objects.
 	
+	If inheritence is used as well. 
+	
 	Doing a very small, simple task? Linear procedure? Probably procedural.
+	
+	Setters and Getters. Setters assigns data to either private or public access.
+	
+	
 	
 	
