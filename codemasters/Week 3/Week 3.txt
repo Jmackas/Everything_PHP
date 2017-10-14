@@ -1,5 +1,5 @@
 Notes:
-
+	Word - Granula
 
 Lecture:
     If any use of classes, objects, or methods is invoked, then it is usually object orientaiton.
@@ -11,6 +11,18 @@ Lecture:
 	Doing a very small, simple task? Linear procedure? Probably procedural.
 	
 	Setters and Getters. Setters assigns data to either private or public access.
+	
+	The construct function creates a new object.
+	
+	Moving on to databases
+	
+	DBMS manages a database.
+	
+	Anything where data is entered has a database attached. Even content on website.
+	
+	
+	
+	
 	
 	
 	
