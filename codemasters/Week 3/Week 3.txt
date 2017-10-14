@@ -20,6 +20,8 @@ Lecture:
 	
 	Anything where data is entered has a database attached. Even content on website.
 	
+	We haven't made any PHP programs to store content for future reference, therefore no database is needed.
+	
 	
 	
 	
