@@ -22,6 +22,24 @@ Lecture:
 	
 	We haven't made any PHP programs to store content for future reference, therefore no database is needed.
 	
+	Big data = lots of data.
+	
+	MongoDB is an object orientated database. It is quite difficult to use due to that fact.
+	
+	SQL --> Structured Query Language.
+	
+	Syntax between SQL can be different depending on the situation.
+	
+	What makes DBMS unique, is not the difference in languages, it is what you are allowed to manipulate.
+	
+	Storing characters:
+		Varchar --> you can use whatever you want.
+		Char --> has a fixed length.
+	
+	Int --> whole numbers. You can have different variants to specify the number further, like Tinyint. If the int cannot be defined at that moment, then just use an int.
+	
+	
+	
 	
 	
 	
