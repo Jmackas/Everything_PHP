@@ -42,6 +42,8 @@ Lecture:
 	
 	Float allows to 7 digits, while double allows to 15 digits. That being said, a double will use more memory.
 	
+	A primary key is a unique identifier for each row.
+	
 	
 	
 	
