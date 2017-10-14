@@ -2,4 +2,10 @@ Notes:
 
 
 Lecture:
-    
+    If any use of classes, objects, or methods is invoked, then it is usually object orientaiton.
+	
+	Object orientation is whenever you model real-world objects.
+	
+	Doing a very small, simple task? Linear procedure? Probably procedural.
+	
+	
