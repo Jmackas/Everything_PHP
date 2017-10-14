@@ -46,6 +46,14 @@ Lecture:
 	
 	BLOB --> Binary Large Object. It is a binary field.
 	
+	A signed number means it can be either negative or positive.
+	
+	phpMyAdmin is a form of DBMS, with a little bit more access than usual. It is far easier than using any other form of database.
+	
+	'mysqli' is far better than 'mysql'. Don't use 'mysql'.
+	
+	
+	
 	
 	
 	
