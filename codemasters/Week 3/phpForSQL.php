@@ -6,4 +6,4 @@
 
     $dbcnx = mysqli_connect($hostname, $username, $password, $dbname);
 
-?>
+?>  
