@@ -1,12 +1,11 @@
 <!--
+	http://localhost/php_learning/codemasters/Homework/week3_homework/home-builder/
 
-What's the point of the homepage.php 
-
-
+	
 -->
 
+<!-- Establish connection with the database -->
 <?php
-/* Retrieves code from the database */
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -20,6 +19,9 @@ if (!$conn) {
 }
 echo "Connected successfully";
 ?>
+
+<!-- Include home.php file -->
+<?php include 'home.php';?>
 
 <!doctype html>
 
