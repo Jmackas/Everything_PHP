@@ -1,4 +1,6 @@
+
 <?php
+/* Retrieves code from the database */
 $servername = "localhost";
 $username = "root";
 $password = "";

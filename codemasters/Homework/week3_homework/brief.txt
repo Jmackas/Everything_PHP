@@ -1,3 +1,20 @@
+OK, so for this week's homework we're going to practise those concepts that we went through today
+
+As mentioned, our home building client who we made the mortgage calculator for were really happy with our work
+
+now they've come to us to see if we can help them with another issue: every time they want to add/edit/remove a house from their website, they have to go to the original developers and pay at least $150 to get this done
+
+they're not happy with this, so they've asked us if there is anything they can do about it
+
+They don't have the budget to build a whole new website, but happily we have looked at the existing files and we see they're just hardcoded HTML - so no problems, we can convert that to PHP and hook it up to a database, then make them a basic CMS
+
+so for homework we're going to set up their site so the content is coming out of the database
+
+
+
+
+
+
 Exercise One: Using phpMyAdmin
 
 1. Import the data from codemasters.sql into your own database. If you have exactly the same structure as my table, you can just import the INSERT statement, otherwise you can import the CREATE statement as well.
