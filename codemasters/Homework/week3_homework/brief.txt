@@ -1,0 +1,36 @@
+Exercise One: Using phpMyAdmin
+
+1. Import the data from codemasters.sql into your own database. If you have exactly the same structure as my table, you can just import the INSERT statement, otherwise you can import the CREATE statement as well.
+
+
+Exercise Two: Writing functions; Database CRUD: Read (SELECT statements)
+
+1. Recreate the included file index.html in PHP, using content that is output from the database.
+2. In index.html, the links are blank. Link these to home-details.php and set a variable in the query string that will allow us to get the right information for each house on home-details.php.
+
+Hints:
+<div class="box"></div> will end up in a loop.
+
+I have included select.php from the Week 3 lesson to help you.
+
+
+Exercise Three: Database CRUD: Read (SELECT statements)
+
+1. Create the home-details.php page. On this page use a new SELECT statement to output all of the home's details (apart from floorplans, as we don't have any).
+
+Hints: 
+I have included home.php from the Week 3 lesson to help you.
+
+
+Advanced Questions:
+1. What would be the most appropriate way to code this website - OOP or procedural? Why? (just for contemplation, you can code it however you feel most comfortable).
+2. Have a look at the images/homes/ folder. Using this and what we learned in week 3 as a guide, create a table for the homes' images.
+
+
+Expectations:
+As ever, don't go to town on HTML/CSS. This week includes very basic CSS for laying things out on the first page, you won't need to add to this. For your second page, only use the minimum CSS to lay things out in an easily comprehendable way.
+
+
+References: 
+http://php.net/manual/en/mysqli.query.php - Querying a database (includes connecting to a DB in example)
+https://dev.mysql.com/doc/refman/5.7/en/data-types.html - MySQL data types
