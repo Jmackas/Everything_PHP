@@ -1,3 +1,9 @@
+<!--
+
+What's the point of the homepage.php 
+
+
+-->
 
 <?php
 /* Retrieves code from the database */
