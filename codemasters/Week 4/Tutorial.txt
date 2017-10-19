@@ -4,4 +4,10 @@ Notes:
 Lecture:
   Will be making a mini CMS in the last class.
   
+  Display errors can be on any page. 
+  
+  Only object orientation uses the '->'.
+  
+  
+  
   
