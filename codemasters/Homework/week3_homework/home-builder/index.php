@@ -1,10 +1,15 @@
 <!--
 	http://localhost/php_learning/codemasters/Homework/week3_homework/home-builder/
 
+	Advanced Questions:
+		1. What would be the most appropriate way to code this website - OOP or procedural? Why? (just for contemplation, you can code it however you feel most comfortable).
+			Object orientation is probably easier to maintain. This type of modelling reflects the real world, hence would be easier to categorise each box and image into classes.
+
 	
 -->
 
 <!-- Include home.php file -->
+
 <?php include 'home.php';?>
 
 <!doctype html>
