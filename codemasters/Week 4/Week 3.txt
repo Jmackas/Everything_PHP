@@ -1,0 +1,73 @@
+Notes:
+	Word - Granula
+
+Lecture:
+    If any use of classes, objects, or methods is invoked, then it is usually object orientaiton.
+	
+	Object orientation is whenever you model real-world objects.
+	
+	If inheritence is used as well. 
+	
+	Doing a very small, simple task? Linear procedure? Probably procedural.
+	
+	Setters and Getters. Setters assigns data to either private or public access.
+	
+	The construct function creates a new object.
+	
+	Moving on to databases
+	
+	DBMS manages a database.
+	
+	Anything where data is entered has a database attached. Even content on website.
+	
+	We haven't made any PHP programs to store content for future reference, therefore no database is needed.
+	
+	Big data = lots of data.
+	
+	MongoDB is an object orientated database. It is quite difficult to use due to that fact.
+	
+	SQL --> Structured Query Language.
+	
+	Syntax between SQL can be different depending on the situation.
+	
+	What makes DBMS unique, is not the difference in languages, it is what you are allowed to manipulate.
+	
+	Storing characters:
+		Varchar --> you can use whatever you want.
+		Char --> has a fixed length.
+	
+	Int --> whole numbers. You can have different variants to specify the number further, like Tinyint. If the int cannot be defined at that moment, then just use an int.
+	
+	Float and double. Depending on accuracy either are better to use.
+	
+	Float allows to 7 digits, while double allows to 15 digits. That being said, a double will use more memory.
+	
+	A primary key is a unique identifier for each row.
+	
+	BLOB --> Binary Large Object. It is a binary field.
+	
+	A signed number means it can be either negative or positive.
+	
+	phpMyAdmin is a form of DBMS, with a little bit more access than usual. It is far easier than using any other form of database.
+	
+	'mysqli' is far better than 'mysql'. Don't use 'mysql'.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

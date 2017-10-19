@@ -1,0 +1,7 @@
+Notes:
+	
+
+Lecture:
+  Will be making a mini CMS in the last class.
+  
+  
