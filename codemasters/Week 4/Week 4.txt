@@ -6,4 +6,7 @@ Lecture:
 	
 	IDs in SQL and HTML are in no way related.
 	
+    Anytime user input is recieved, the assumption is that it is not trustworthy.
+
+    
 	
