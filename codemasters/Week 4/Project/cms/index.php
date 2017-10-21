@@ -8,7 +8,6 @@
 
   <body>
     
-    
     <section class="homes">
       <div class="container">
 		  <h1>Welcome to the CMS</h1>

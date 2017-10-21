@@ -13,8 +13,8 @@
       <div class="container">
 		  <h1>Add a new home</h1>
 		  
-		  <form>
-		  
+      <form action="added-home.php" method="post">
+        
 		  </form>
 		  
       </div>
