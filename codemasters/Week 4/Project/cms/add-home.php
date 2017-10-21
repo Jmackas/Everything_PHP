@@ -13,9 +13,15 @@
       <div class="container">
 		  <h1>Add a new home</h1>
 		  
-      <form action="added-home.php" method="post">
-        
-		  </form>
+      <form action = "added-home.php" method = "post">
+       Name:<input type="text" name="name"><br>
+       Price:<input type="number" name="price"><br>
+       Total bedrooms:<input type="number" name="beds"><br>
+       Total bathrooms:<input type="number" name="baths"><br>
+       Total park space:<input type="number" name="parks"><br>
+       Block width:<input type="number" name="bWidth"><br>
+       Description:<input type="text" name="description"><br>
+       <input type="submit" name="submit" value="Add">
 		  
       </div>
     </section>
