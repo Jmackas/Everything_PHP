@@ -32,7 +32,7 @@ $beds = sanitiseInput($_POST['beds']);
        Block width:<input type="number" name="bWidth"><br>
        Description:<input type="text" name="description"><br>
        <input type="submit" name="submit" value="Add">
-		  
+		  </form>
       </div>
     </section>
     

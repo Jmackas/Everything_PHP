@@ -1,6 +1,5 @@
 <?php
 
-
 ?>
 
 <!doctype html>
@@ -12,12 +11,17 @@
   </head>
 
   <body>
-    
+  
     
     <section class="homes">
       <div class="container">
 		  <h1>Edit or delete a home</h1>
 		  
+      <form action="added-home.php" method="post">
+       <input type="submit" value="delete"><br>
+       <input type="submit" value="edit">
+		</form>
+
       </div>
     </section>
     
