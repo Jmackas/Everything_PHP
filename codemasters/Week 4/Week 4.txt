@@ -8,5 +8,7 @@ Lecture:
 	
     Anytime user input is recieved, the assumption is that it is not trustworthy.
 
+    Look into --> rainbow tables.
+
     
 	
