@@ -4,15 +4,6 @@ require_once("../includes/initialisation.php");
 $name = sanitiseInput($_POST['name']);
 $price = sanitiseInput($_POST['price']);
 $beds = sanitiseInput($_POST['beds']);
-$price = sanitiseInpit($_POST[]);
-$price = sanitiseInpit($_POST[]);
-$price = sanitiseInpit($_POST[]);
-$price = sanitiseInpit($_POST[]);
-$price = sanitiseInpit($_POST[]);
-$price = sanitiseInpit($_POST[]);
-$price = sanitiseInpit($_POST[]);
-$price = sanitiseInpit($_POST[]);
-$price = sanitiseInpit($_POST[]);
 
 ?>
 
