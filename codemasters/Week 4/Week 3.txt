@@ -2,4 +2,8 @@ Notes:
 	
 
 Lecture:
-    
+    Two colons refer to a built in method.
+	
+	IDs in SQL and HTML are in no way related.
+	
+	
