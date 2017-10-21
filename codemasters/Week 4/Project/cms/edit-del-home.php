@@ -1,7 +1,7 @@
 <?php
 
 include("includes/initialisation.php");
-$homelist = 
+// $homelist = 
 ?>
 
 <!doctype html>
