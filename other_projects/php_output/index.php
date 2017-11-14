@@ -1,7 +1,12 @@
 <?php
 
-if (3 < 4) {
-    echo 'meme';
+function testfun()
+{
+   echo "Your test function on button click is working";
+}
+
+if(array_key_exists('test',$_POST)){
+   testfun();
 }
 
 
@@ -26,7 +31,11 @@ pre {
 </style>
 </head>
 <body>
-test
+<form method="post">
+    <input type="submit" name="test" id="test" value="Submit" /><br/>
+</form>
+
+<pre></pre>
 </body>
 </html>
 
