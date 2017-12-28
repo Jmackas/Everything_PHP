@@ -1,6 +1,10 @@
 <!-- Created script that allows for file upload of images into the 'images' folder -->
 
+<!-- Credit:
 
+    https://www.tutorialspoint.com/php/php_file_uploading.htm
+
+-->
 
 <?php
    if(isset($_FILES['image'])){
