@@ -27,6 +27,13 @@ function add_smiley($content)
     return $new_content;
 }
 
+// Redirect user when the plugin is activated
+function cyb_activation_redirect( $plugin ) {
+    if( $plugin == plugin_basename( __FILE__ ) ) {
+        exit( wp_redirect( admin_url( 'admin.php?page=cool-message-settings' ) ) );
+    }
+}
+add_action( 'activated_plugin', 'cyb_activation_redirect' );
 
 // // Apply script to a widget
 // do_action('widget_text', 'widget_extension');
@@ -61,18 +68,12 @@ function my_cool_plugin_create_menu()
 function my_cool_plugin_settings_page()
 {
     ?>
-    <div class="wrap">
-        <h1>Cool Plugin</h1>
-        <form method="post" action="options.php">
-            <?php settings_fields('my-cool-plugin-settings-group'); ?>
-            <?php do_settings_sections('my-cool-plugin-settings-group'); ?>
-            <table class="form-table">
-                <tr valign="top">
-                    <th scope="row">Message Here</th>
-                    <td><input type="text" name="new_message" value="<?php echo esc_attr(get_option('new_message')); ?>" /></td>
-                </tr>
-            </table>
-            <?php submit_button(); ?>
-        </form>
-    </div>
+    <h1>Cool Plugin</h1>
+    <form method="post" action="options.php">
+        <?php settings_fields('my-cool-plugin-settings-group'); ?>
+        <?php do_settings_sections('my-cool-plugin-settings-group'); ?>
+        Message Here
+        <input type="text" name="new_message" value="<?php echo esc_attr(get_option('new_message')); ?>" />
+        <?php submit_button(); ?>
+    </form>
 <?php } ?>
